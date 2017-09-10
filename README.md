@@ -3,6 +3,7 @@ android 7.1 ShortcutManager using
 
 在Android 7.1之后添加的新功能，这里就暂且翻译成：快捷方式，简单地理解：在长按应用图标的情况下，在应用图标上显示的快捷方式，该快捷方式可以点击进入Activity，长按拖动创建一个在Launcher上的图标。
   现在市场上已经是有很多应用增加了这项功能，如：印象笔记、支付宝、哔哩哔哩、IT之家、知乎、美团，以上是我的手机安装的应用中看到的，其他的就暂时没了解到，可以看一下效果。
+  
  ![支付宝](http://olah6fzfx.bkt.clouddn.com/%E6%94%AF%E4%BB%98%E5%AE%9D_shortcut.png) ![哔哩哔哩](http://olah6fzfx.bkt.clouddn.com/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9_shortcut.png)
 #### 实现有两种方式
 
@@ -48,7 +49,11 @@ AndroidManiFest.xml
 
 那么静态方式就配置好了，上面快捷方式配置的Activity的就不贴上来了，就是一个简单的Activity而已。
 看一下效果图：
+
+
 ![静态方式](http://olah6fzfx.bkt.clouddn.com/%E9%9D%99%E6%80%81%E6%96%B9%E5%BC%8F.PNG)
+
+
 
 #### 动态方式
 那么动态方式，是通过ShortcutManager实现快捷方式的增加、删除、更新的操作，google的大神都配置好了方法，使用起来很简单。下面就放一下简单的配置代码。
