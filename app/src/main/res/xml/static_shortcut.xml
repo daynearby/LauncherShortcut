@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--搜索-->
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_search"
+        android:shortcutDisabledMessage="@string/lable_shortcut_static_search_disable"
+        android:shortcutId="shortcut_id_search"
+        android:shortcutLongLabel="@string/lable_shortcut_static_search_long"
+        android:shortcutShortLabel="@string/lable_shortcut_static_search_short">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.young.demo.launchershortcut.StaticShortcutSearch"
+            android:targetPackage="com.young.demo.launchershortcut" />
+        <!--当前只有这个分类-->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <!--离线视频-->
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_download"
+        android:shortcutDisabledMessage="@string/lable_shortcut_static_download_disable"
+        android:shortcutId="shortcut_id_download"
+        android:shortcutLongLabel="@string/lable_shortcut_static_download_long"
+        android:shortcutShortLabel="@string/lable_shortcut_static_download_short">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.young.demo.launchershortcut.StaticShortcutDownload"
+            android:targetPackage="com.young.demo.launchershortcut" />
+        <!--当前只有这个分类-->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

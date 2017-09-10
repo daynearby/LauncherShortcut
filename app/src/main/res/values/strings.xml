@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Shortcut</string>
+    <string name="lable_txt_max_count">当前设备每个Activity最多支持%d个快捷方式，包括当前图标本身</string>
+    <string name="dynamic_shortcuts_btn_lable">设置两个动态方式快捷方式</string>
+    <string name="lable_static_search">这是一个由静态shortcut打开的搜索界面</string>
+    <string name="lable_shortcut_static_search_disable">搜索不可用</string>
+    <string name="lable_shortcut_static_search_long">搜索</string>
+    <string name="lable_shortcut_static_search_short">搜索</string>
+    <string name="lable_static_download">这是一个由静态shortcut打开的离线视频界面</string>
+    <string name="lable_shortcut_static_download_short">本地</string>
+    <string name="lable_shortcut_static_download_long">离线视频</string>
+    <string name="lable_shortcut_static_download_disable">离线视频不可用</string>
+
+    <string name="lable_shortcut_dynamic_like_short">点赞</string>
+    <string name="lable_shortcut_dynamic_like_long">点赞</string>
+    <string name="lable_shortcut_dynamic_comment_short">评论</string>
+    <string name="lable_shortcut_dynamic_comment_long">评论</string>
+    <string name="lable_dynamic_like">这是一个由动态shortcut打开的点赞界面</string>
+    <string name="lable_dynamic_comment">这是一个由动态shortcut打开的评论界面</string>
+    <string name="lable_btn_add_one">添加一个快捷方式</string>
+    <string name="lable_btn_remove_one">删除一个快捷方式</string>
+    <string name="lable_shortcut_dynamic_add_and_remocve_long">新添加的shortcut</string>
+    <string name="lable_shortcut_dynamic_add_and_remocve_short">新shortcut</string>
+    <string name="lable_shortcut_dynamic_add_and_remocve_disable">新添加的shortcut不可用</string>
+    <string name="lable_btn_enable_like">设置点赞图标可用</string>
+    <string name="lable_btn_disable_like">设置点赞图标不可用</string>
+    <string name="toast_op_finish">操作完成</string>
+    <string name="lable_dynamic_add_and_remove">这是一个由动态shortcut打开的可以添加删除的界面</string>
+
+</resources>
