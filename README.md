@@ -77,7 +77,10 @@ shortcutManager.setDynamicShortcuts(Arrays.asList(likeShortcut));
 
 ```
 上面两个是通过动态方式添加的。
+
 ![动态方式](http://olah6fzfx.bkt.clouddn.com/%E5%8A%A8%E6%80%81%E6%96%B9%E5%BC%8F.PNG)
+
+
 移除快捷方式
 void removeDynamicShortcuts(@NonNull List<String> shortcutIds);
 
