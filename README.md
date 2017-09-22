@@ -96,3 +96,5 @@ boolean updateShortcuts(List<ShortcutInfo> shortcutInfoList);
 显示的顺序问题：添加在前的显示在下方，后面添加的显示在上面。
 
 这个类的使用还是比较简单的。添加了这项功能的APP，长按的效果跟iOS的3D touch差不多的视觉体验。
+
+最后附上官网地址：https://developer.android.google.cn/reference/android/content/pm/ShortcutManager.html
